@@ -4,3 +4,54 @@ body {
   color: $body-color;
   font-family: sans-serif;
 }
+
+.colour-boxes div {
+  height: 150px;
+  width: 150px;
+  border: black 1px solid;
+  &.black {
+    background-color: black;
+  }
+  &.red {
+    background-color: red;
+  }
+  &.green {
+    background-color: green;
+  }
+  &.blue {
+    background-color: blue;
+  }
+  &.brown {
+    background-color: brown;
+  }
+  &.cyan {
+    background-color: cyan;
+  }
+  &.gold {
+    background-color: gold;
+  }
+  &.green {
+    background-color: green;
+  }
+  &.grey {
+    background-color: grey;
+  }
+  &.maroon {
+    background-color: maroon;
+  }
+  &.orange {
+    background-color: orange;
+  }
+  &.pink {
+    background-color: pink;
+  }
+  &.purple {
+    background-color: purple;
+  }
+  &.white {
+    background-color: white;
+  }
+  &.yellow {
+    background-color: yellow;
+  }
+}
