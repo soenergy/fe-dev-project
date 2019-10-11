@@ -1,11 +1,14 @@
 import "../styles/index.scss";
 
 let menuButtonClick = function(e) {
-  console.log("menu button clicked", e.target, e.target.nextsibling);
+  let menuButton = e.target;
+  let menu = menuButton.nextElementSibling;
+  console.log("menu button clicked", menuButton, menu);
 };
 
 let menuItemClick = function(e) {
-  console.log("clicked", e.target);
+  let menuItem = e.target;
+  console.log("clicked", menuItem);
 };
 
 let setUpMenuButtons = function() {
